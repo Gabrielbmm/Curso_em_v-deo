@@ -1,0 +1,29 @@
+estrutura de repetição 
+
+enquanto tem o seu teste logico em cima e o repita faz o teste logico no final 
+
+Equanto começa com teste lógico com Não 
+Repita começa com o teste lóogico no positivo 
+Para
+
+A diferença do Para para o enquanto/Repita é: 
+O Para eu tenhoq ue estabelecer um limite de repetições, já o Enquanto eu posso pedir para o usuario definir.
+
+A repetição para não pode ser utilizada quando o não existe um fim, ou seja, o usuário escolhe o fim 
+
+
+
+12/13
+Escopo local e global
+Rotinas <- Prodecimentos e funções 
+Prodecimento/Função - parâmetros por valor OU refrência 
+
+Procedimento não pode retornar um valor (local) 
+Função retornar o valor no final do códdigo (global)
+
+
+na Passagem de Parâmetro por Valor as alterações feitas na função NÃO afetam o valor do argumento usado para chamar a função, pois é passado apenas o valor do argumento.
+
+na Passagem de Parâmetro por Referência as alterações feitas na função afetam o valor do argumento usado para chamar a função, pois é passado todo o endereço real do argumento.
+
+Nos vetores por posuir espaço, eu posso colocar certo valor e apos isso eu posso ler eles novamente (eles ficam salvos) pois foram guardados. diferente das variasveis simples que noa salva esse valores 
