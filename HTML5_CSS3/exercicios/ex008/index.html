@@ -8,7 +8,8 @@
 </head>
 <body>
     <h1>Trabalhando com Listas</h1>
-    <!-- li = item da lista / ol = lista ordenada / ul = lista não ordenada -->
+    <!-- li = item da lista / ol = lista ordenada / ul = lista não ordenada / dl = Lista de Definição-->
+    <!--( Podemos colocar uma lista dentro da outra!!!)-->
     <h2>Listas Ordenadas</h2>
     <ol type="1" start="20"> <!-- 1 A a I i -->
         <li>Wake up</li>
@@ -28,6 +29,77 @@
         <li>Arroz</li>
     </ul>
 
-    
+    <h2>Minhas linguagens favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="A" start="1">
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="A" start="5">
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Java</li>
+        </ol>
+    </ol>
+
+    <h2>Meus Jogos Favorito</h2>
+    <ol>
+        <li>Xbox 360</li>
+        <ul type="square">
+            <li>Minecraft</li>
+            <li>Lego</li>
+        </ul>
+        <li>Nintendo 3Ds</li>
+        <ul type="square">
+            <li>Mario</li>
+            <li>Pokemon</li>
+            <ul>
+                <li>Pokemon Emerald</li>
+                <li>Pokemon Saphire</li>
+                <li>Pokemon Ruby</li>
+            </ul>
+        </ul>
+        <li>PSP</li>
+        <ul type="square">
+            <li>Lego</li>
+            <li>Ben 10</li>
+        </ul>
+    </ol>
+
+    <h2>Exemplos Teste_listas</h2>
+    <ol type="1">
+        <li>Nintendo 3Ds</li>
+        <ul type="circle">
+            <li>Pokemon</li>
+            <ol type="I">
+                <li>Emerald</li>
+                <li>Sun</li>
+                <li>Moon</li>
+                <li>Saphire</li>
+                <li>Ruby</li>
+            </ol>
+        </ul>
+        <li>PSP</li>
+    </ol>
+
+    <h2>Lista de Definições</h2> <!--"Serve para a definição de algo (tipo um dicionário)"-->
+    <dl>
+        <!--Termo-->
+        <dt>HTML</dt> 
+
+        <!--Descrição-->
+        <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd> 
+
+        <dt>CSS</dt>
+        <dd>Lingauagem de marcação para a criação do design de um site.</dd>
+
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+    </dl>
 </body>
 </html>
