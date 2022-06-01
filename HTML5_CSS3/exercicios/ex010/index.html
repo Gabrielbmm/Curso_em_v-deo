@@ -15,5 +15,24 @@
         <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
         <img src="imagens/foto-g.png" alt="imagem-felxível">
     </picture>
+
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzuir áudios em HTML5</p>
+
+    <audio src="midia/happy-mistake.mp3" controls autoplay></audio>
+
+    <audio preload="metadata" autoplay controls loop>
+         <!-- Se o nagegador não conseguir reproduzir o áudio em MP3, 
+        ele vai tentar reproduzir nos seguintes modelos ( OGG / WAV)-->
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <!--Arquivos WAV, são muito grandes e o recomendado é não utilizar (utilizar os de cima)-->
+        <source src="midia/guanacast-33.wav" type="audio/wav">
+    </audio>
+
+    <p>Se o navegador não coseguir reproduzir o áudio <a href="midia/guanacast-33.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+   
+    <!--MP3 WAV OGG-->
+
 </body>
 </html>
