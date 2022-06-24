@@ -6,13 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fonte em CSS</title>
     <style>
-        /*Fonte sans-serifada (ela não possui as linhas na ponta da letra)*/
         body{
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            /*Fonte sans-serifada (ela não possui as linhas na ponta da letra)*/
+            /*Fonte serifada (facilidade na leitura por causa das linhas*/
+            font-family: 'Work Sans';
+            
+            /*
+            Medidas Absolutas -> cm, mm, in(polegadas), px, pt(pontuação do word), pc
+            Medidas Relativas -> em, ex, rem, vw, vh, %
+
+            OBS: Sempre utilizar as medidas (px ou em)
+            -> 1em = 16px
+            */
+            font-size: 1.5em;
+
+            /*Fonte -> lighter - normal - bold - bolder*/
+            font-weight: bolder ;
+            /*
+            weight = peso 
+            height = altura
+            width = largura
+            */
         }
-        /*Fonte serifada (facilidade na leitura por causa das linhas*/
-        h1, h2{
-            font-family: 'Times New Roman', Times, serif;
+        
+        h1{
+            /*
+
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+
+            */
+
+            /*
+
+            shorthand font
+            font-style -> font-weight -> font-size -> font-family
+
+            */
+
+            font: italic bolder 3em 'Work Sans', sans-serif;
         }
     </style>
 </head>
